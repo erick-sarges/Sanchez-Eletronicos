@@ -22,6 +22,7 @@ header{
     height: 800px;
     position: relative;
     transform: translateY(-25px);
+    box-shadow: 0px 0px 100px #3498DB;
 } 
 
 .b{
@@ -203,12 +204,14 @@ padding: 5px;
     
     
     
+    
 }
 #tecnologia{
     width: 300px;
     display: inline-block;
     position: absolute;
     transform: translate(300px, -15px);
+    
     
     
     
@@ -225,6 +228,7 @@ padding: 5px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    box-shadow: 0px 0px 50px #1ABC9a;
     
     
 }
@@ -279,6 +283,9 @@ padding: 5px;
 .cadastre-se:hover{
     color: #00FF7F;
 }
+
+
+
 
         /* PRODUTOS PARA EXIBIÇÃO */
 
