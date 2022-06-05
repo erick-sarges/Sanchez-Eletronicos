@@ -19,7 +19,7 @@ header{
     background-image: url(../images/pexels-soulful.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 800px;
     position: relative;
     transform: translateY(-25px);
 } 
@@ -161,65 +161,79 @@ padding: 5px;
             /* FINAL DO HEADER */
     /* ----------------------------------------- */
 
-.consideracoes{
+#conteiner2{
 
-    width: 60%;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.secao01{
+
+    width: 80%;
     margin-top: 10px;
     font-family: Itim;
+    text-align: center;
     position: absolute;
-    transform: translate(320px);
+    transform: translate(150px)
     
     
 
 }
 
 #certificado{
-    width: 30%;
-    text-align: center;
-    transform: translate(-60px);
+    width: 300px;
     display: inline-block;
+    position: absolute;
+    left: -30px;
+    transform: translateY(-15px);
     
     
     
 
 }
 #natureza{
-    width: 45%;
+    width: 450px;
     display: inline-block;
-    text-align: center;
     position: absolute;
+    transform: translate(-250px,-15px);
+    
     
     
 }
 #tecnologia{
-    width: 40%;
+    width: 300px;
     display: inline-block;
     position: absolute;
-    text-align: center;
-    transform: translate(450px);
+    transform: translate(300px, -15px);
+    
+    
     
 }
 
 
-.secao1{
+.secao02{
 
     background-color: black;
-    width: 60%;
+    width: 800px;
     height: 300px;
-    transform: translate(300px, 300px);
+    transform: translate(100px, 300px);
     background-image: url(../images/section1.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
     
-
     
-    
-
 }
+
+
 .content01{
 
     font-family: Itim;
-    transform: translate(100px, 20px);
+    transform: translate(-200px, 20px);
     color: #3498DB;
     text-shadow: -1px 1px black;
 }
@@ -228,9 +242,8 @@ padding: 5px;
 
     text-align: center;
     position: absolute;
-    transform: translate(15px, 50px);
+    transform: translate(-120px, 50px);
     font-weight: bold;
-    font-family: itim;
     border: none;
     padding: 10px;
     border-radius: 20px;
@@ -245,11 +258,11 @@ padding: 5px;
     background-color:#00FF7F ;
 }
 
-.secao2{
+.secao03{
 
     font-family: Itim;
     text-align: center;
-    transform: translatey(400px);
+    transform: translate(-60px, 350px);
     font-size: 26px;
     color: #1ABC9a;
     text-decoration: underline;
@@ -266,3 +279,12 @@ padding: 5px;
 .cadastre-se:hover{
     color: #00FF7F;
 }
+
+        /* PRODUTOS PARA EXIBIÇÃO */
+
+/* .produtos{
+
+    width: 400px;
+    height: 200px;
+    background-color: #000000;
+} */
