@@ -493,3 +493,30 @@ transform: translate(-100px);
     transform: translate(80px, -20px);
  }
 
+ .quasefooter{
+     width: 100%;
+     margin: auto;
+     transform: translateY(100px);
+
+ }
+
+.rodape{
+
+    display: inline-block;
+    height: 100px;
+    margin-right: -4px;
+    
+    
+}
+
+ .rodape img{
+   
+    width: 300px;
+    height: 250px;
+    
+ }
+
+
+
+
+
