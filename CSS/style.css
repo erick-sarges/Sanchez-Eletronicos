@@ -516,6 +516,38 @@ transform: translate(-100px);
     
  }
 
+#contatos{
+
+    transform: translateY(100px);
+    font-weight: bold;
+    
+    
+}
+
+
+#contatos div{
+
+    display: inline-block;
+    width: 150px;
+    
+
+}
+
+#contatos p{
+
+    transform: translateY(-20px);
+}
+
+.entrega2{
+
+    transform: translate(-100px);
+}
+ .tel{
+
+    transform: translate(50px);
+ }
+
+
 
 
 
