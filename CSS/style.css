@@ -32,7 +32,6 @@ float: right;
 margin-top: 5px;
 font-size: 14px;
 color: 	#3498DB;
-margin-right: 10px;
 padding: 5px;
 transform: translate(-100px);
 
@@ -41,7 +40,7 @@ transform: translate(-100px);
 
 .b b{
 
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .conteiner{
@@ -114,7 +113,9 @@ transform: translate(-100px);
 
     transform: translatey(50px);
     text-align: left;
-    
+    color: #469fda;
+    font-weight: bold;
+    font-size: 20px;
     
 }
 
@@ -126,17 +127,7 @@ transform: translate(-100px);
     text-shadow: -1px 1px #ffffff;
 }
 
-.informacoes-dos-produtos h3{
-    color: #469fda;
-    font-weight: bold;
 
-}
-.informacoes-dos-produtos p{
-
-    color: #3498DB;
-    font-weight: bold;
-    
-}
 
 .comprar-agora{
     text-align: center;
@@ -165,7 +156,7 @@ transform: translate(-100px);
 
 #conteiner2{
 
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     text-align: center;
     position: relative;
@@ -179,7 +170,6 @@ transform: translate(-100px);
     width: 100%;
     margin-top: 10px;
     font-family: Itim;
-    text-align: center;
     position: relative;
     margin: auto;
     z-index: 8;
@@ -214,15 +204,11 @@ transform: translate(-100px);
     position: relative;
     transform: translate(40px, -15px);
     
-    
-    
-    
+  
 }
 
 
 .secao02{
-
-    background-color: black;
     width: 900px;
     height: 350px;
     margin: auto;
@@ -269,11 +255,12 @@ transform: translate(-100px);
 }
 
 .secao03{
+    
     font-family: Itim;
-    transform: translate(-60px, 200px);
+    transform: translatey(200px);
     font-size: 26px;
-    display: inline-block;
     z-index: 6;
+    
 }
 .secao03 h2{
     box-shadow: 0px 5px 10px black;
@@ -281,10 +268,11 @@ transform: translate(-100px);
     text-shadow: -2px 2px #ffffff;
     background-color: #3498DB;
     width: fit-content;
-    transform: translate(50px);
     border: none;
     border-radius: 30px;
     padding: 5px;
+    margin: auto;
+
     
 }
 
@@ -296,7 +284,6 @@ transform: translate(-100px);
 .cadastre-se{
     color: #3498DB;
     font-size: 20px;
-    transform: translatey(-20px);
     text-decoration: none;
 }
 .cadastre-se:hover{
@@ -307,29 +294,42 @@ transform: translate(-100px);
         /* PRODUTOS PARA EXIBIÇÃO */
 
 .produtos{
-
-    transform: translate(50px, 200px);
+    margin: auto;
+    transform: translatey(200px);
     z-index: 5;
     font-family: Itim;
+    background-color: #ddd;
+    padding: 30px;
+    border-radius: 10px;
    
 }
 
 .estoque1{
 
     display: inline-block;
+    
+
+}
+
+.iten1 {
+
+    transform: translate(-200px);
 
 
+}
+.iten3{
+    transform: translate(200px);
+
+    
 }
 
 .estoque1 h3{
 
     color: #3498DB;
-    margin-left: -200px;
 }
 .estoque1 p{
     margin-top: -10px;
     color: #1ABC9a;
-    margin-left: -200px;
     font-weight: bold;
 }
 
@@ -337,7 +337,6 @@ transform: translate(-100px);
     width: 300px;
     height: 250px;
     box-shadow: 0px 10px 10px black;
-    margin-right: 200px;
     border-radius: 10px;
     
     
@@ -350,24 +349,35 @@ transform: translate(-100px);
 
     display: inline-block;
     margin-top: 50px;
-    
+    margin: auto;
+
 }
+
+.iten4{
+
+    transform: translate(-200px);
+}
+
+.iten6{
+
+    transform: translate(200px);
+
+}
+
 .estoque2 img{
     width: 300px;
     height: 250px;
-    margin-right: 200px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px black;
 }
 .estoque2 h3{
     
     color: #3498DB;
-    margin-left: -200px;
+
 }
 .estoque2 p{
     margin-top: -10px;
     color: #1ABC9a;
-    margin-left: -200px;
     font-weight: bold;
 }
 
@@ -375,7 +385,7 @@ transform: translate(-100px);
 /* ------------------------------------------ */
 
 
-#propaganda{
+#propaganda1{
 
     transform: translateY(250px);
     background-image: url(../images/Header.jpg);
@@ -391,21 +401,22 @@ transform: translate(-100px);
     border: none;
     border-radius: 10px;
     box-shadow: 0px 10px 10px #000000;
+    
 }
 
-#propaganda h2{
+#propaganda1 h2{
 
     font-size: 25px;
     transform: translate(-130px, 100px);
 }
 
-#propaganda p{
+#propaganda1 p{
 
     font-size: 20px;
     transform: translate(-100px, 80px);
    
 }
- #propaganda b{
+ #propaganda1 b{
 
     text-align: center;
     position: absolute;
@@ -419,9 +430,33 @@ transform: translate(-100px);
     color: black;
     box-shadow: 0px 3px 10px #000000;
     text-shadow: none;
+    
  }
 
- #propaganda b:hover{
+ #propaganda1 b:hover{
 
     background-color:#00FF7F ;
  }
+
+
+ #propaganda2{
+    
+    background-image: url(../images/section2.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: translateY(300px);
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+    
+    
+ }
+
+ .anuncio{
+     display: inline-block;
+ }
+
