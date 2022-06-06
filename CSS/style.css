@@ -34,6 +34,7 @@ color: 	#3498DB;
 margin-right: 10px;
 padding: 5px;
 
+
 }
 
 .b b{
@@ -190,7 +191,7 @@ padding: 5px;
     display: inline-block;
     position: absolute;
     left: -30px;
-    transform: translateY(-15px);
+    transform: translate(-50px, -15px);
     
     
     
@@ -199,8 +200,8 @@ padding: 5px;
 #natureza{
     width: 450px;
     display: inline-block;
-    position: absolute;
-    transform: translate(-250px,-15px);
+    position: relative;
+    transform: translate(150px,-15px);
     
     
     
@@ -209,7 +210,7 @@ padding: 5px;
 #tecnologia{
     width: 300px;
     display: inline-block;
-    position: absolute;
+    position: relative;
     transform: translate(300px, -15px);
     
     
@@ -229,6 +230,7 @@ padding: 5px;
     background-position: center;
     border-radius: 10px;
     box-shadow: 0px 0px 50px #1ABC9a;
+    position: relative;
     
     
 }
@@ -289,9 +291,10 @@ padding: 5px;
 
         /* PRODUTOS PARA EXIBIÇÃO */
 
-/* .produtos{
+.produtos{
 
     width: 400px;
     height: 200px;
     background-color: #000000;
-} */
+    position: absolute;
+}
