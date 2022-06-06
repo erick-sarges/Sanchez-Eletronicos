@@ -19,7 +19,7 @@ header{
     background-image: url(../images/pexels-soulful.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 750px;
     position: relative;
     transform: translateY(-25px);
     box-shadow: 0px 0px 100px #3498DB;
@@ -223,14 +223,15 @@ transform: translate(-100px);
 .secao02{
 
     background-color: black;
-    width: 800px;
-    height: 300px;
-    transform: translate(100px, 40px);
+    width: 900px;
+    height: 350px;
+    margin: auto;
+    top: 60px;
     background-image: url(../images/section1.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px black;
     position: relative;
     z-index: 7;
     
@@ -239,9 +240,9 @@ transform: translate(-100px);
 
 
 .content01{
-
+    font-size: 20px;
     font-family: Itim;
-    transform: translate(-200px, 20px);
+    transform: translate(-70px, 20px);
     color: #3498DB;
     text-shadow: -1px 1px black;
 }
@@ -250,8 +251,9 @@ transform: translate(-100px);
 
     text-align: center;
     position: absolute;
-    transform: translate(-120px, 50px);
+    transform: translate(-100px, 20px);
     font-weight: bold;
+    font-size: 16px;
     border: none;
     padding: 10px;
     border-radius: 20px;
@@ -346,8 +348,8 @@ transform: translate(-100px);
 .estoque2{
 
     display: inline-block;
-    margin-top: 100px;
-    /* margin-right: 200px; */
+    margin-top: 50px;
+    
 }
 .estoque2 img{
     width: 300px;
@@ -357,7 +359,7 @@ transform: translate(-100px);
     box-shadow: 0px 10px 10px black;
 }
 .estoque2 h3{
-
+    
     color: #3498DB;
     margin-left: -200px;
 }
@@ -375,10 +377,13 @@ transform: translate(-100px);
 #propaganda{
 
     transform: translateY(250px);
+    background-image: url(../images/Header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 300px;
+    margin: auto;
 }
 
-#propaganda img{
- width:300px;
  
-
-}
