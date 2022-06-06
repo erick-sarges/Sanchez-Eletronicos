@@ -34,6 +34,7 @@ font-size: 14px;
 color: 	#3498DB;
 margin-right: 10px;
 padding: 5px;
+transform: translate(-100px);
 
 
 }
@@ -46,15 +47,15 @@ padding: 5px;
 .conteiner{
 
     max-width: 90%;
-    position: relative;
+    margin: auto;
     
 }
 
 .cabeca{
     position: relative;
     top: 60px;
-    margin-left: 200px;
-
+    width: 80%;
+    margin: auto;
     
 }
 
@@ -71,7 +72,7 @@ padding: 5px;
 }
 
 .text2{
-    position: relative;
+
     transform: translate(20px, -25px);
     font-size: 16px;
     color: #1ABC9a;
@@ -80,7 +81,6 @@ padding: 5px;
 
 .cabeca hr{
 
-    position: relative;
     transform: translatey(-30px);
     
 }
@@ -90,7 +90,7 @@ padding: 5px;
     color: #3498DB;
     position: absolute;
     right: 0px;
-    bottom:220px;
+    top: 40px;
     font-weight: bold;
     font-size: 15px;
     
@@ -112,7 +112,6 @@ padding: 5px;
 
 .informacoes-dos-produtos{
 
-    position: relative;
     transform: translatey(50px);
     text-align: left;
     
@@ -268,7 +267,6 @@ padding: 5px;
 }
 
 .secao03{
-
     font-family: Itim;
     transform: translate(-60px, 200px);
     font-size: 26px;
@@ -308,7 +306,6 @@ padding: 5px;
 
 .produtos{
 
-    position: relative;
     transform: translate(50px, 200px);
     z-index: 5;
    
@@ -374,20 +371,14 @@ padding: 5px;
 
 /* ------------------------------------------ */
 
+
+#propaganda{
+
+    transform: translateY(250px);
+}
+
 #propaganda img{
  width:300px;
  
 
-}
-
-#propaganda{
-
-    position: absolute;
-    z-index: 7;
-    transform: translatey(500px);
-    
-    /* transform: translateY(1500px); */
-    
-    /* transform: translateY(1000px); */
-    
 }
