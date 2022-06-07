@@ -89,7 +89,7 @@ transform: translate(-140px);
     color: #3498DB;
     position: absolute;
     right: 0px;
-    top: 40px;
+    top: 45px;
     font-weight: bold;
     font-size: 15px;
     
@@ -505,7 +505,7 @@ transform: translate(-140px);
  }
 
  .carrinho{
-
+    
     transform: translate(80px, -20px);
  }
 
@@ -611,13 +611,12 @@ footer{
     padding: 20px;
 }
 
-span{
+#copyright{
 
     font-family: Itim;
-    position: relative;
-    bottom: 20px;
-   
+    transform: translateY(-20PX);
     
+
 }
 
 /* ----------------------------------------------------------------- */
