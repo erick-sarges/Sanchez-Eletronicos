@@ -33,7 +33,7 @@ margin-top: 5px;
 font-size: 14px;
 color: 	#3498DB;
 padding: 5px;
-transform: translate(-100px);
+transform: translate(-140px);
 
 
 }
@@ -109,6 +109,10 @@ transform: translate(-100px);
     
 }
 
+
+
+/* ---------------------------------------------------------------------------- */
+
 .informacoes-dos-produtos{
 
     transform: translatey(50px);
@@ -132,7 +136,7 @@ transform: translate(-100px);
 .comprar-agora{
     text-align: center;
     position: absolute;
-    transform: translatey(100px);
+    transform: translatey(200px);
     font-weight: bold;
     font-family: itim;
     border: none;
@@ -206,6 +210,9 @@ transform: translate(-100px);
     
   
 }
+/* -------------------------------------------------------------- */
+
+
 
 
 .secao02{
@@ -254,6 +261,9 @@ transform: translate(-100px);
     background-color:#00FF7F ;
 }
 
+
+/* ------------------------------------------------------------ */
+
 .secao03{
     
     font-family: Itim;
@@ -289,6 +299,7 @@ transform: translate(-100px);
 .cadastre-se:hover{
     color: #1ABC9a;
 }
+
 
 
         /* PRODUTOS PARA EXIBIÇÃO */
@@ -441,6 +452,9 @@ transform: translate(-100px);
  }
 
 
+ /* ---------------------------------------------------------------- */
+
+
  #propaganda2{
     
     background-image: url(../images/section2.jpg);
@@ -495,6 +509,9 @@ transform: translate(-100px);
     transform: translate(80px, -20px);
  }
 
+
+ /* -------------------------------------------------------------------------------- */
+
  .quasefooter{
      width: 100%;
      margin: auto;
@@ -517,6 +534,9 @@ transform: translate(-100px);
     height: 250px;
     
  }
+
+
+ /* ---------------------------------------------------------------- */
 
 #contatos{
 
@@ -548,7 +568,7 @@ transform: translate(-100px);
 
     transform: translate(50px);
  }
-
+/* ------------------------------------------------------------------------ */
 
 footer{
 
@@ -599,5 +619,7 @@ span{
    
     
 }
+
+/* ----------------------------------------------------------------- */
 
 
