@@ -156,7 +156,7 @@ transform: translate(-100px);
 
 #conteiner2{
 
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
     text-align: center;
     position: relative;
@@ -294,6 +294,7 @@ transform: translate(-100px);
         /* PRODUTOS PARA EXIBIÇÃO */
 
 .produtos{
+    width: 90%;
     margin: auto;
     transform: translatey(200px);
     z-index: 5;
@@ -307,6 +308,7 @@ transform: translate(-100px);
 .estoque1{
 
     display: inline-block;
+
     
 
 }
@@ -548,7 +550,54 @@ transform: translate(-100px);
  }
 
 
+footer{
+
+    transform: translateY(100PX);
+    width: 100%;
+    background-color: #ddd;
+}
+
+.logomarca1{
+    margin: auto;
+    width: fit-content;
+    font-family: PermanentMarker;
+    color:#1ABC9C;
+    background-image: url(../assets/icons8-rick-sanchez-50.png);
+    background-repeat: no-repeat;
+    background-size: calc(33px);
+    text-shadow: -1px 1px #ffffff;
+}
+
+.logomarca2{
+    transform: translateY(-20px);
+    font-size: 16px;
+    color: #1ABC9a;
+    text-shadow: -1px 1px white;
+    height: 200px;
 
 
+}
+
+
+#b{
+    position: relative;
+    bottom: 150px;
+    width: fit-content;
+    margin: auto;
+    
+}
+
+#b b{
+    padding: 20px;
+}
+
+span{
+
+    font-family: Itim;
+    position: relative;
+    bottom: 20px;
+   
+    
+}
 
 
