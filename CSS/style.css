@@ -15,6 +15,11 @@ body{
 
 }
 
+a{
+
+    text-decoration: none;
+}
+
 header{
     background-image: url(../images/pexels-soulful.jpg);
     background-size: cover;
@@ -302,6 +307,7 @@ transform: translate(-140px);
     border-radius: 30px;
     padding: 5px;
     margin: auto;
+    
 
     
 }
@@ -331,7 +337,7 @@ transform: translate(-140px);
 
         /* PRODUTOS PARA EXIBIÇÃO */
 
-.produtos{
+#produtos{
     width: 90%;
     margin: auto;
     transform: translatey(200px);
