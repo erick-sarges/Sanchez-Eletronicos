@@ -59,6 +59,8 @@ transform: translate(-140px);
 }
 
 
+
+
 .text1{
 
     font-family: PermanentMarker;
@@ -70,6 +72,7 @@ transform: translate(-140px);
 
 }
 
+
 .text2{
 
     transform: translate(20px, -25px);
@@ -77,6 +80,7 @@ transform: translate(-140px);
     color: #1ABC9a;
     text-shadow: -1px 1px white;
 }
+
 
 .cabeca hr{
 
@@ -152,6 +156,14 @@ transform: translate(-140px);
 .comprar-agora:hover{
 
     background-color:#00FF7F ;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    padding: 12px;
+    cursor: pointer;
+    
+    
+  
     
 }
 
@@ -210,6 +222,9 @@ transform: translate(-140px);
     
   
 }
+
+    
+
 /* -------------------------------------------------------------- */
 
 
@@ -259,6 +274,11 @@ transform: translate(-140px);
 .content01 b:hover{
 
     background-color:#00FF7F ;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    padding: 12px;
+    cursor:pointer;
 }
 
 
@@ -289,6 +309,13 @@ transform: translate(-140px);
 .secao03 h2:hover{
 
     background-color: #1ABC9a;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor:pointer;
+    transform: translateY(-20px);
 }
 
 .cadastre-se{
@@ -351,9 +378,18 @@ transform: translate(-140px);
     height: 250px;
     box-shadow: 0px 10px 10px black;
     border-radius: 10px;
-    
-    
-    
+}
+
+.estoque1 img:hover{
+
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    width: 310px;
+    height: 260px;
+    cursor: pointer;
+
+
 }
 
 /* ------------------------------------- */
@@ -363,6 +399,7 @@ transform: translate(-140px);
     display: inline-block;
     margin-top: 50px;
     margin: auto;
+   
 
 }
 
@@ -382,7 +419,20 @@ transform: translate(-140px);
     height: 250px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px black;
+   
 }
+
+.estoque2 img:hover{
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    width: 310px;
+    height: 260px;
+    cursor: pointer;
+     
+}
+
+
 .estoque2 h3{
     
     color: #3498DB;
@@ -449,6 +499,11 @@ transform: translate(-140px);
  #propaganda1 b:hover{
 
     background-color:#00FF7F ;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    padding: 12px;
+    cursor:pointer;
  }
 
 
@@ -576,6 +631,7 @@ footer{
     width: 100%;
     background-color: #ddd;
 }
+
 
 .logomarca1{
     margin: auto;
