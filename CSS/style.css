@@ -161,9 +161,7 @@ transform: translate(-140px);
 .comprar-agora:hover{
 
     background-color:#00FF7F ;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease;
+    transition: all 1s ease;
     padding: 12px;
     cursor: pointer;
     
@@ -279,9 +277,7 @@ transform: translate(-140px);
 .content01 b:hover{
 
     background-color:#00FF7F ;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease;
+    transition: all 1s ease;
     padding: 12px;
     cursor:pointer;
 }
@@ -315,9 +311,7 @@ transform: translate(-140px);
 .secao03 h2:hover{
 
     background-color: #1ABC9a;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease;
+    transition: all 1s ease;
     padding-left: 10px;
     padding-right: 10px;
     cursor:pointer;
@@ -388,9 +382,7 @@ transform: translate(-140px);
 
 .estoque1 img:hover{
 
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
+    transition: all 0.3s ease;
     width: 310px;
     height: 260px;
     cursor: pointer;
@@ -429,9 +421,7 @@ transform: translate(-140px);
 }
 
 .estoque2 img:hover{
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
+    transition: all 0.3s ease;
     width: 310px;
     height: 260px;
     cursor: pointer;
@@ -505,9 +495,7 @@ transform: translate(-140px);
  #propaganda1 b:hover{
 
     background-color:#00FF7F ;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease;
+    transition: all 1s ease;
     padding: 12px;
     cursor:pointer;
  }
