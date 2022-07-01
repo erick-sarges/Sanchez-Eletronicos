@@ -212,11 +212,12 @@ transform: translate(-140px);
     display: inline-block;
     position: relative;
     transform: translate(-30px,-15px);
-    
-    
-    
+     
     
 }
+
+
+
 #tecnologia{
     width: 300px;
     display: inline-block;
@@ -303,8 +304,9 @@ transform: translate(-140px);
     border-radius: 30px;
     padding: 5px;
     margin: auto;
+    transition: padding 1s;
+    transition-timing-function: ease;
     
-
     
 }
 
@@ -346,8 +348,6 @@ transform: translate(-140px);
 .estoque1{
 
     display: inline-block;
-
-    
 
 }
 
