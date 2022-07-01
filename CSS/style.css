@@ -154,6 +154,8 @@ transform: translate(-140px);
     background-color: #1ABC9a;
     color: black;
     box-shadow: 0px 3px 10px white;
+    transition: padding 1s ease;
+    
     
     
 }
@@ -280,6 +282,7 @@ transform: translate(-140px);
     color: black;
     box-shadow: 0px 3px 10px #000000;
     text-shadow: none;
+    transition: padding 1s ease;
 }
  
 .content01 b:hover{
@@ -496,6 +499,7 @@ transform: translate(-140px);
     color: black;
     box-shadow: 0px 3px 10px #000000;
     text-shadow: none;
+    transition: padding 1s ease;
     
  }
 
@@ -547,6 +551,21 @@ transform: translate(-140px);
     
  }
 
+ .anuncios{
+
+    transform: translateY(-20PX);
+    width: 80px;
+    transition: width 1s ease;
+
+
+ }
+
+ .anuncios:hover{
+
+    width: 90px;
+
+ }
+
  .anuncio{
      display: inline-block;
      width: 300px;
@@ -554,12 +573,7 @@ transform: translate(-140px);
      transform: translate(60px);
      
  }
- .anuncio img{
-     width: 80px;
-     transform: translateY(-20PX);
-     
- }
-
+ 
  .carrinho{
     
     transform: translate(80px, -20px);
@@ -601,7 +615,18 @@ transform: translate(-140px);
     
     
 }
+#contatos img{
+    width: 50px;
+    transition: width 1s ease;
+    
 
+
+}
+
+#contatos img:hover{
+
+    width: 55px;
+}
 
 #contatos div{
 
