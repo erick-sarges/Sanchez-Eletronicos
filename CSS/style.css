@@ -197,13 +197,22 @@ transform: translate(-140px);
 
 }
 
+.qualidades{
+    width: 100px;
+    transition: width 1s;
+    transition-timing-function: ease;
+}
+
+.qualidades:hover{
+
+    width: 110px;
+}
+
 #certificado{
     width: 300px;
     display: inline-block;
     position: relative;
     transform: translate(-100px, -15px);
-    
-    
     
 
 }
@@ -217,7 +226,6 @@ transform: translate(-140px);
 }
 
 
-
 #tecnologia{
     width: 300px;
     display: inline-block;
@@ -227,7 +235,6 @@ transform: translate(-140px);
   
 }
 
-    
 
 /* -------------------------------------------------------------- */
 
